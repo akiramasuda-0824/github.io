@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  padding: 0;
   width: 1300px;
 }
 .title {
@@ -44,7 +45,14 @@ img {
   margin: 20px 20px 20px 70px;
   font-size: 12px;
 }
-#BIL {
-  width: 1300px;
-  height: 500px;
+.BIL {
+  position: relative;
+}
+.BIL p {
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 30%;
 }
